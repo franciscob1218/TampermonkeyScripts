@@ -2,8 +2,11 @@
 // @name        FootPrints.ws
 // @version     1.0
 // @include     https://support.iit.edu/*
+// @namespace https://greasyfork.org/users/932694
+// @description counter
 // ==/UserScript==
 
+//testing the push
 
 (function() {
     'use strict';

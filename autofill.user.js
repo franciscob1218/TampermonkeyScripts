@@ -6,3 +6,4 @@
 // @description autofill
 // ==/UserScript==
 
+FUNCTION (print("LOL"));

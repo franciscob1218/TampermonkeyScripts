@@ -1,3 +1,9 @@
+// ==UserScript==
+// @name        FootPrints.ws
+// @version     1.0
+// ==/UserScript==
+
+
 (function() {
     'use strict';
     var intervalID = window.setInterval(

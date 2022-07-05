@@ -6,4 +6,8 @@
 // @description autofill
 // ==/UserScript==
 
-FUNCTION (print("LOL"));
+(function() {
+
+    print('void');
+    
+});

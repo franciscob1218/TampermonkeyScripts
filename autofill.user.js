@@ -7,9 +7,20 @@
 // ==/UserScript==
 
 //test push
+(function(){
 
-(function() {
+})
 
-    print('void');
+document.addEventListener
 
-})();
+
+
+
+function changelastname(){
+
+    var lastname = document.getElementsByName("last_name");
+
+    lastname[0].value = "--"
+
+}
+

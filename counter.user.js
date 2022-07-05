@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        FootPrints.ws
 // @version     1.0
-// @match       <all_urls>
+// @include     https://support.iit.edu/*
 // ==/UserScript==
 
 

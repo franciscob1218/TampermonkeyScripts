@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        FootPrints.ws
+// @name        FootPrints.counter
 // @version     1.0
 // @include     https://support.iit.edu/*
 // @namespace https://greasyfork.org/users/932694

@@ -17,4 +17,4 @@ setInterval(function () {
         document.getElementById("follow-company-checkbox").checked = false;
         console.log("Checkbox was checked and has been unchecked.");
     }
-}, 4000);
+}, 500);

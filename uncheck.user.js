@@ -1,13 +1,10 @@
 // ==UserScript==
 // @name        Linkedin.uncheck
-// @version     1.2
+// @version     1.3
 // @include     https://www.linkedin.com/*
 // @namespace   https://greasyfork.org/users/932694
 // @description uncheck the follow box if active on easy apply
 // ==/UserScript==
-
-
-var test = "worked";
 
 // Set an interval to check the checkbox status every 0.5 seconds
 setInterval(function () {
@@ -17,4 +14,4 @@ setInterval(function () {
         document.getElementById("follow-company-checkbox").checked = false;
         console.log("Checkbox was checked and has been unchecked.");
     }
-}, 500);
+}, 4000);

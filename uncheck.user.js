@@ -1,38 +1,24 @@
 // ==UserScript==
 // @name        Linkedin.uncheck
-// @version     0.1
+// @version     0.2
 // @include     https://www.linkedin.com/*
 // @namespace   https://greasyfork.org/users/932694
 // @description uncheck the follow box if active on easy apply
 // ==/UserScript==
 
-var lastname = document.getElementsByName("last_name");
+var checkbox = document.querySelector("follow-company-checkbox")
 
 
-function changelastnamevalue(){
 
-    lastname[0].value = "--"
-};
 
-function dolastnamebutton() {
+
+
+function run(){
     
-    let btn = document.createElement("button");
-    btn.innerHTML = "Click Me";
-    btn.addEventListener("click", changelastnamevalue)
-
-    var div_parent = lastname[0].parentElement;
-
-    div_parent.appendChild(btn);
+    checkbox.checked;
 };
-
-var intervalID = window.setInterval(
-    dolastnamebutton,
-    2000
-);
-
-
 
 (function(){
-    dolastnamebutton();
+    run();
 });
 
